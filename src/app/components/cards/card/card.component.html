@@ -1,0 +1,6 @@
+<button (click)="clickSelect(elemento)" ><img src="{{elemento.img}}" alt=""  [ngClass]="{'b-check': accion==='Check'&&elemento.id===seleccionada,'b-x': elemento.id!==seleccionada,'b-visible': (accion==='Ok')&&(elemento.id===seleccionada)}"></button>
+<!-- <div>{{accion}}</div>
+<div>{{seleccionada}}</div>
+<div>{{elemento.id}}</div>
+<div>{{elemento.name}}</div>
+<div> ({{accion}}==='Ok')&&({{elemento.id}}==={{seleccionada}})</div> -->
